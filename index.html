@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GameOrientedStudio — 준비 중</title>
+<meta name="description" content="GameOrientedStudio 공식 사이트를 준비하고 있습니다.">
+<meta property="og:title" content="GameOrientedStudio">
+<meta property="og:description" content="공식 사이트 준비 중 — 서울의 독립 게임 스튜디오">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.gameorientedstudio.com/">
+<meta property="og:image" content="https://www.gameorientedstudio.com/img/miner_strip.png">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0c0906">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14' shape-rendering='crispEdges'><rect width='14' height='14' fill='%230c0906'/><path fill='%23ecbc52' d='M6 1h2v1h1v1h1v1h1v1h1v1h1v2h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-2h1v-1h1v-1h1v-1h1v-1h1z'/></svg>">
+<!-- 글꼴 — Pretendard(OFL) · 갈무리 Galmuri(OFL). 버전 고정. 라이선스 = CREDITS.md -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/galmuri@2.40.3/dist/galmuri.css">
+<style>
+:root{
+  --bg:#0c0906; --bg3:#1b150e; --line:#2a2118; --line2:#3e3123;
+  --fg:#f4ebdd; --dim:#a69881; --dim2:#706554; --gold:#ecbc52; --gold2:#c29433;
+  --sans:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --px11:"Galmuri11",ui-monospace,monospace; --px14:"Galmuri14","Galmuri11",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; color:var(--fg); font-family:var(--sans); line-height:1.7; -webkit-font-smoothing:antialiased;
+  word-break:keep-all; display:flex; flex-direction:column; min-height:100svh;
+  background:
+    radial-gradient(rgba(236,188,82,.06) 1px, transparent 1.5px) 0 0/8px 8px,
+    radial-gradient(55% 50% at 50% 66%, rgba(236,188,82,.13), transparent 70%),
+    linear-gradient(180deg, #0c0906 0%, #110c08 55%, #19120b 100%) fixed;
+  background-color:var(--bg);
+}
+.p11{font-family:var(--px11); font-size:11px; letter-spacing:.08em; -webkit-font-smoothing:none}
+.p14{font-family:var(--px14); font-size:14px; letter-spacing:.04em; -webkit-font-smoothing:none}
+.px{image-rendering:pixelated; image-rendering:crisp-edges}
+
+header{padding:26px 24px 0; max-width:1180px; width:100%; margin:0 auto}
+.logo{display:inline-flex; align-items:center; gap:10px; font-size:17px; font-weight:800; letter-spacing:-.02em}
+.logo svg{width:20px; height:20px}
+.logo b{color:var(--gold)}
+
+main{flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:48px 16px 40px}
+.eyebrow{display:inline-flex; align-items:center; gap:10px; margin:0 0 22px; color:var(--gold2)}
+.eyebrow i{width:6px; height:6px; background:var(--gold); display:block; animation:blink 1.6s steps(2) infinite}
+@keyframes blink{50%{opacity:.15}}
+h1{margin:0; font-size:clamp(46px,8vw,92px); font-weight:800; letter-spacing:-.045em; line-height:1.05}
+.sub{margin:18px 0 6px; font-size:clamp(16px,1.8vw,19px); color:var(--dim)}
+.sub b{color:var(--fg); font-weight:600}
+.sub-en{margin:0; color:var(--dim2)}
+
+/* 도트는 정확히 2배(768px) */
+.window{width:min(768px,100%); margin:46px auto 0; border:1px solid var(--line2); background:var(--bg3); text-align:left;
+  box-shadow:0 40px 90px rgba(0,0,0,.6), 0 0 0 6px rgba(0,0,0,.25), 0 0 120px rgba(236,188,82,.08)}
+.window .bar{display:flex; align-items:center; justify-content:space-between; padding:9px 14px 8px; border-bottom:1px solid var(--line2); color:var(--dim); background:#15100b}
+.window .bar span{display:flex; gap:6px}
+.window .bar span i{width:9px; height:9px; border:1px solid var(--dim2); display:block}
+.window img{display:block; width:100%; height:auto}
+.window figcaption{padding:10px 14px 9px; color:var(--dim2); border-top:1px solid var(--line)}
+.window figcaption b{color:var(--gold); font-weight:400}
+
+footer{padding:0 24px 28px; text-align:center; color:var(--dim2); font-size:12.5px}
+
+@media (prefers-reduced-motion:reduce){ .eyebrow i{animation:none} }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="logo">
+    <svg viewBox="0 0 14 14" shape-rendering="crispEdges" aria-hidden="true">
+      <path fill="#ecbc52" d="M6 1h2v1h1v1h1v1h1v1h1v1h1v2h-1v1h-1v1h-1v1h-1v1h-1v1h-2v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-2h1v-1h1v-1h1v-1h1v-1h1z"/>
+      <path fill="#fff1be" d="M6 2h1v1h-1zM5 3h1v1h-1zM4 4h1v1h-1zM3 5h1v1h-1z"/>
+      <path fill="#a8761f" d="M11 8h1v1h-1zM10 9h1v1h-1zM9 10h1v1h-1zM8 11h1v1h-1z"/>
+    </svg>
+    <span>Game<b>Oriented</b>Studio</span>
+  </span>
+</header>
+
+<main>
+  <p class="eyebrow p11"><i></i>COMING SOON</p>
+  <h1>준비 중입니다</h1>
+  <p class="sub"><b>광부가 열심히 파고 있어요.</b> 곧 공식 사이트로 찾아뵙겠습니다.</p>
+  <p class="sub-en p11">THE OFFICIAL SITE IS ON ITS WAY.</p>
+
+  <figure class="window">
+    <div class="bar"><span class="p11">광부 청이</span><span><i></i><i></i><i></i></span></div>
+    <img class="px" src="img/miner_strip.png" alt="광부 청이 게임 화면 — 굴 속에서 곡괭이질하는 광부와 광석이 쌓인 광차" width="384" height="188">
+    <figcaption class="p11">첫 게임 <b>「광부 청이」</b> 개발 중 · PC (Steam) · 2027</figcaption>
+  </figure>
+</main>
+
+<footer>© 2026 GameOrientedStudio</footer>
+
+</body>
+</html>
