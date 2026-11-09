@@ -1,4 +1,4 @@
-# GameOrientedStudio — 공식 사이트
+# Game-Oriented Studio — 공식 사이트
 
 `https://www.gameorientedstudio.com` · GitHub Pages
 

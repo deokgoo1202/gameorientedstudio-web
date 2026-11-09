@@ -1,4 +1,4 @@
-# CREDITS — GameOrientedStudio 공식 사이트 (`main` · 준비 중 페이지)
+# CREDITS — Game-Oriented Studio 공식 사이트 (`main` · 준비 중 페이지)
 
 > 규칙 = `Studio/.claude/instructions/studio/studio_credits.md`. 본 사이트(`draft`)의 CREDITS 는 그 브랜치에 따로 있다.
 
